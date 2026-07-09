@@ -1,0 +1,34 @@
+{
+  "name": "@ai-native-solutions/aws-s3-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sovereign SDK wrapper for AWS S3",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "Cloud Storage",
+    "aws-s3",
+    "sovereign",
+    "estate",
+    "ai-native-solutions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/aws-s3-sdk.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
